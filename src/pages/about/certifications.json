@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "name": "AWS Certified Cloud Practitioner",
+    "description": "An industry certification that demonstrates knowledge of project management concepts, including project planning, communication, risk management, and project lifecycle management.",
+    "expirationDate": "Aug 2027"
+  },
+  {
+    "id": 2,
+    "name": "CompTIA Project+",
+    "description": "An industry certification that demonstrates knowledge of project management concepts, including project planning, communication, risk management, and project lifecycle management.",
+    "expirationDate": "Jan 2029"
+  }
+]

@@ -7,7 +7,6 @@ export function Home() {
 
   return (
     <>
-
       <div className="items-center flex flex-col gap-3">
         <img src="PortfolioImage.WebP" alt="" className="profile-image" />
         <div className="flex flex-col gap-2 ">
