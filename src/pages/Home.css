@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+.profile-image {
+    width: 75%;
+    height: auto;
+    clip-path: circle();
+}
