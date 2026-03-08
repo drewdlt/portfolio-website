@@ -3,7 +3,7 @@ import courses from './courses.json';
 export function Education() {
 	return (
 		<div className='bg-gray-400 my-4 mx-3 p-4'>
-			<h1 className='text-3xl font-semibold'>Education</h1>
+			<h1 className='text-3xl font-semibold border-b-2 pb-3 mb-3'>Education</h1>
 			<div className='flex flex-col'>
 				<p className='font-bold text-lg'>B.S. Software Engineering</p>
 				<p className='font-semibold'>

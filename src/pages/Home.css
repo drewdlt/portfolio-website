@@ -2,7 +2,7 @@
 
 .profile-image-container {
 	width: 80%;
-	height: 400px;
+	height: 370px;
 	clip-path: ellipse(50% 50% at 50% 50%);
 	transform: skew(-15deg);
 }
