@@ -18,8 +18,10 @@ export function AboutMe() {
 				my skills as I explore new technologies and development practices.
 			</p>
 
+			{/* Languages section */}
             <Languages />
             
+			{/* Framewords & Libraries section */}
 			<Stack />
 
 		</div>

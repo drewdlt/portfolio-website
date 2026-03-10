@@ -1,4 +1,4 @@
-import certifications from './certifications.json';
+import certifications from '../../data/certifications.json';
 
 export function Certifications() {
 	return (

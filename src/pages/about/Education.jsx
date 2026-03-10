@@ -1,4 +1,4 @@
-import courses from './courses.json';
+import courses from '../../data/courses.json';
 
 export function Education() {
 	return (

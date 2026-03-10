@@ -1,4 +1,4 @@
-import { techLanguages } from './TechLanguages.jsx';
+import { techLanguages } from '../data/TechLanguages';
 
 export function Languages() {
 	return (

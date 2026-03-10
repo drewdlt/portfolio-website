@@ -1,37 +1,21 @@
 import './App.css';
-import { Route, Routes, NavLink } from 'react-router';
-import { Home } from './pages/Home';
+import { Route, Routes } from 'react-router';
+import { Home } from './pages/home/Home';
 import { About } from './pages/about/About';
 import { Header } from './components/Header';
 import { useState } from 'react';
+import { Sidebar } from './components/Sidebar';
 
 function App() {
 	const [showSidebar, setShowSidebar] = useState(false);
 
 	return (
 		<>
+			{/* Header component */}
 			<Header showSidebar={showSidebar} setShowSidebar={setShowSidebar} />
 
 			{/* Sidebar menu */}
-			<div
-				className='flex flex-col gap-4 pt-4 pl-3 sidebar-menu'
-				hidden={showSidebar ? false : true}
-			>
-				<NavLink
-					to='/'
-					className='text-lg font-semibold text-white'
-					onClick={() => setShowSidebar(false)}
-				>
-					Home
-				</NavLink>
-				<NavLink
-					to='/about'
-					className='text-lg font-semibold text-white'
-					onClick={() => setShowSidebar(false)}
-				>
-					About
-				</NavLink>
-			</div>
+			<Sidebar showSidebar={showSidebar} setShowSidebar={setShowSidebar} />
 
 			<Routes>
 				<Route index element={<Home />} />
