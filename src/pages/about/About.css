@@ -1,3 +1,24 @@
 .tech-icon {
     width: 30px;
 }
+
+.info-container {
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-bottom: 2rem;
+    overflow: hidden;
+}
+
+.table-container {
+    border: 2px solid black;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-bottom: 36px;
+}
+
+.info-container-header {
+    background-color: var(--color-blue-600);
+    font-size: var(--text-3xl);
+    line-height: var(--tw-leading, var(--text-3xl--line-height));
+    color: white;
+}
