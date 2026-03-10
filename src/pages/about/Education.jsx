@@ -2,23 +2,28 @@ import courses from '../../data/courses.json';
 
 export function Education() {
 	return (
-		<div className='info-container my-4 mx-3'>
-			<h1 className='info-container-header font-semibold py-3 pl-3'>Education</h1>
-			<div className='flex flex-col pt-3 px-3'>
-				<p className='font-bold text-lg'>B.S. Software Engineering</p>
-				<p className='font-semibold'>
+		<div className='section-container'>
+			<h1 className='section-header font-extrabold text-4xl'>Education</h1>
+			<div className=''>
+				<p className='text-xl font-bold'>B.S. Software Engineering</p>
+				<p className='font-semibold mt-1 mb-5'>
 					Western Governors University |
-					<span className='text-black/50 italic font-normal'>
+					<span className='font-thin italic text-black/60'>
 						{' '}
 						Expected Sept. 2026
 					</span>
 				</p>
 			</div>
-			<p className='my-1 px-3'>Relevent Course Work:</p>
-			<div className='columns-2 px-3 mb-2'>
+			<p className='font-semibold underline underline-offset-4 mb-4'>
+				Relevent Course Work
+			</p>
+			<div className='columns-2'>
 				{courses.map((course, idx) => {
 					return (
-						<p key={idx} className='py-1'>
+						<p
+							key={idx}
+							className='mb-3 border-l-2 pl-1 bg-white rounded min-h-12 overflow-hidden flex items-center'
+						>
 							{course}
 						</p>
 					);

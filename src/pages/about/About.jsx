@@ -12,12 +12,12 @@ export function About() {
 			{/* About Me section */}
 			<AboutMe />
 
-			<div className='flex flex-col'>
+			<div className='py-13 flex flex-col bg-gray-200'>
 				{/* Languages section */}
-				<InfoTable title={'Languages'} languageArray={techLanguages}/>
+				<InfoTable title={'Languages'} languageArray={techLanguages} />
 
 				{/* Frameworks & Libraries section */}
-				<InfoTable title={'Frameworks & Libraries'} languageArray={techStack}/>
+				<InfoTable title={'Frameworks & Libraries'} languageArray={techStack} />
 			</div>
 
 			{/* Education section */}

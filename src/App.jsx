@@ -14,13 +14,15 @@ function App() {
 			{/* Header component */}
 			<Header showSidebar={showSidebar} setShowSidebar={setShowSidebar} />
 
-			{/* Sidebar menu */}
-			<Sidebar showSidebar={showSidebar} setShowSidebar={setShowSidebar} />
+			<div className='pt-15'>
+				{/* Sidebar menu */}
+				<Sidebar showSidebar={showSidebar} setShowSidebar={setShowSidebar} />
 
-			<Routes>
-				<Route index element={<Home />} />
-				<Route path='about' element={<About />} />
-			</Routes>
+				<Routes>
+					<Route index element={<Home />} />
+					<Route path='about' element={<About />} />
+				</Routes>
+			</div>
 		</>
 	);
 }

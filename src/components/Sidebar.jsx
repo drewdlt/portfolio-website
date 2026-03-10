@@ -3,7 +3,7 @@ import { NavLink } from "react-router";
 export function Sidebar({ showSidebar, setShowSidebar }) {
 	return (
 		<div
-			className='flex flex-col gap-4 pt-4 pl-3 sidebar-menu'
+			className='sidebar-menu gap-4 pt-4 pl-3'
 			hidden={showSidebar ? false : true}
 		>
 			<NavLink
