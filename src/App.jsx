@@ -5,6 +5,7 @@ import { About } from './pages/about/About';
 import { Header } from './components/Header';
 import { useState } from 'react';
 import { Sidebar } from './components/Sidebar';
+import { Footer } from './components/Footer';
 
 function App() {
 	const [showSidebar, setShowSidebar] = useState(false);
@@ -14,7 +15,7 @@ function App() {
 			{/* Header component */}
 			<Header showSidebar={showSidebar} setShowSidebar={setShowSidebar} />
 
-			<div className='pt-15'>
+			<div className='pt-15 md:pt-19'>
 				{/* Sidebar menu */}
 				<Sidebar showSidebar={showSidebar} setShowSidebar={setShowSidebar} />
 
@@ -23,6 +24,8 @@ function App() {
 					<Route path='about' element={<About />} />
 				</Routes>
 			</div>
+
+			<Footer />
 		</>
 	);
 }

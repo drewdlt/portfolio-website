@@ -2,7 +2,7 @@ export function Socials() {
 	return (
 		<div className='flex gap-4'>
 			{/* Github Icon link */}
-			<a href='https://github.com/drewdlt' target='_blank'>
+			<a className="hover:scale-120 transition-transform" href='https://github.com/drewdlt' target='_blank'>
 				<svg
 					className='w-10'
 					xmlns='http://www.w3.org/2000/svg'
@@ -19,7 +19,7 @@ export function Socials() {
 				</svg>
 			</a>
 			{/* LinkedIn Icon link */}
-			<a href='' target='_blank'>
+			<a className="hover:scale-120 transition-transform" href='' target='_blank'>
 				<svg
 					className='w-10'
 					xmlns='http://www.w3.org/2000/svg'

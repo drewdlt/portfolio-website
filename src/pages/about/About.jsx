@@ -12,7 +12,7 @@ export function About() {
 			{/* About Me section */}
 			<AboutMe />
 
-			<div className='py-13 flex flex-col bg-gray-200'>
+			<div className='py-13 flex flex-col bg-gray-200 md:px-12 md:flex-row md:justify-around md:py-17'>
 				{/* Languages section */}
 				<InfoTable title={'Languages'} languageArray={techLanguages} />
 
