@@ -5,6 +5,10 @@
 @theme {
 	--font-google-sans: 'Google Sans', sans-serif;
 	--font-bebas: 'Bebas Neue', sans-serif;
+	--primary-color: #0b2545;
+	--light-color: #eef4ed;
+	--dark-color: #01161e;
+	--sidebar-color: #01161e95;
 }
 
 *,

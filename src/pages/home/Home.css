@@ -1,17 +1,26 @@
 @import 'tailwindcss';
 
 .profile-image-container {
-	width: 80%;
 	height: 370px;
-	clip-path: ellipse(50% 50% at 50% 50%);
+	clip-path: ellipse(40% 50% at 50% 50%);
 	transform: skew(-15deg);
 }
 
 .profile-image {
 	background-image: url('/PortfolioImage.WebP');
-	transform: skew(15deg) scale(1.1);
-	width: 100%;
-	height: 100%;
+	transform: skew(15deg) scale(1);
 	background-position: center;
 	background-size: cover;
+}
+
+@media (width >= 48rem) {
+	.profile-image-container {
+		height: 500px;
+		clip-path: ellipse(45% 50% at 50% 50%);
+	}
+
+	.profile-image {
+		transform: skew(15deg) scale(1.05);
+		background-position: top;
+	}
 }

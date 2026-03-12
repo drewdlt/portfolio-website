@@ -6,6 +6,7 @@ import { Header } from './components/Header';
 import { useState } from 'react';
 import { Sidebar } from './components/Sidebar';
 import { Footer } from './components/Footer';
+import { Projects } from './pages/projects/Projects';
 
 function App() {
 	const [showSidebar, setShowSidebar] = useState(false);
@@ -15,13 +16,14 @@ function App() {
 			{/* Header component */}
 			<Header showSidebar={showSidebar} setShowSidebar={setShowSidebar} />
 
-			<div className='pt-15 md:pt-19'>
+			<div className='pt-12 md:pt-16'>
 				{/* Sidebar menu */}
 				<Sidebar showSidebar={showSidebar} setShowSidebar={setShowSidebar} />
 
 				<Routes>
 					<Route index element={<Home />} />
 					<Route path='about' element={<About />} />
+					<Route path='projects' element={<Projects />}/>
 				</Routes>
 			</div>
 

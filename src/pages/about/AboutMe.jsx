@@ -1,11 +1,11 @@
-import { Socials } from './Socials';
+import { Socials } from '../../components/Socials';
 
 export function AboutMe() {
 	return (
-		<div className='section-container bg-zinc-500 text-white'>
+		<div className='section-container bg-(--light-color)'>
 			<div className='md:w-1/2'>
-				<h1 className='section-header font-extrabold'>About Me</h1>
-				<div className='md:text-lg'>
+				<h1 className='section-header font-extrabold text-(--primary-color)'>About Me</h1>
+				<div className='text-(--dark-color) md:text-lg'>
 					<p className='mb-4 md:mb-6'>
 						I'm a developer who enjoys building{' '}
 						<span className='font-black'>full-stack web applications</span> that
