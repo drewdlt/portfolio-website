@@ -1,3 +1,4 @@
+import "./Sidebar.css"
 import { NavLink } from "react-router";
 
 export function Sidebar({ showSidebar, setShowSidebar }) {
