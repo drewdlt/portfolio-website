@@ -1,0 +1,29 @@
+[
+	{
+		"title": "React E-Commerce Store",
+		"type": "Front-End",
+		"stack": ["React", "JavaScript", "CSS"],
+		"description": "An e-commerce web application featuring product browsing, product lookup, cart management, and order information",
+		"links": ["https://github.com/drewdlt/Ecommerce-Project"]
+	},
+	{
+		"title": "Angular Full-Stack Online Storefront",
+		"type": "Full-Stack",
+		"stack": ["Angular", "TypeScript", "Spring Boot", "Java", "MySQL"],
+		"description": "A full-stack e-commerce web application that enables users to browse and search products across multiple categories. The platform features interactive cart management and a checkout form where users enter order details before completing a purchase through a streamlined checkout workflow.",
+		"links": [
+			"https://github.com/drewdlt/angular-ecommerce-front-end",
+			"https://github.com/drewdlt/angular-ecommerce-backend"
+		]
+	},
+	{
+		"tite": "Comic Codex - Full-Stack Comic Character Explorer",
+		"type": "Full-Stack",
+		"stack": ["React", "TailwindCSS", "JavaScript", "Spring Boot", "Java", "PostgreSQL"],
+		"description": "A Full-Stack application that allows users to search for comic book characters and view detailed information retrieved from a back-end API. The interface dynamically fetches and displays character data, providing a fast and interactive browsing experience.",
+		"links": [
+			"https://github.com/drewdlt/Comic-Codex-Front-End",
+			"https://github.com/drewdlt/Comic-Codex-API"
+		]
+	}
+]
