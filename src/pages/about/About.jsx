@@ -14,7 +14,7 @@ export function About() {
 			{/* About Me section */}
 			<AboutMe />
 
-			<div className='py-13 flex flex-col bg-(--light-color) md:px-12 md:flex-row md:justify-around md:py-17'>
+			<div className='pb-13 flex flex-col bg-(--light-color) md:px-12 md:flex-row md:justify-around md:pb-17'>
 				{/* Languages section */}
 				<InfoTable title={'Languages'} languageArray={techLanguages} />
 
